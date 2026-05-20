@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "145283732925",
+    "project_id": "finanplus-c1988",
+    "storage_bucket": "finanplus-c1988.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:145283732925:android:76f8bbb2713ccbfe4b2ed4",
+        "android_client_info": {
+          "package_name": "com.example.FinanPlus"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA945W9EW18VWyK3Y_-03j8HrWCu9gZkzI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#1A1A1A">
+
+    <!-- TITULO -->
+    <TextView
+        android:id="@+id/tvTituloDialogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nueva Transacción"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="22dp"/>
+
+    <!-- INPUT DESCRIPCION -->
+    <EditText
+        android:id="@+id/etNombreGasto"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Descripción"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#9E9E9E"
+        android:backgroundTint="#BB86FC"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- INPUT MONTO -->
+    <EditText
+        android:id="@+id/etMontoGasto"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Monto"
+        android:inputType="numberDecimal"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#9E9E9E"
+        android:backgroundTint="#BB86FC"
+        android:padding="12dp"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- BOTON -->
+    <Button
+        android:id="@+id/btnGuardarGasto"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="GUARDAR"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#6200EE"/>
+
+</LinearLayout>
